@@ -159,6 +159,13 @@ class GameLevels(tk.Tk):
                 'zero': [(1, 0), (0, 4), (2,0),(3,0)],
                 'red_magnet_pos': (4, 4) 
             },
+            21:{
+                'size': 4,
+                'purple_magnet_pos': (2,1),
+                'iron': [(1, 2)],
+                'zero': [(1, 3), (0, 2)],
+                'red_magnet_pos': (2, 0)
+                }
         }
 
         for i in range(1, len(self.levels) + 1):
